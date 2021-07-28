@@ -1,3 +1,31 @@
 *{
     margin: 0;
 }
+
+#prime-page{
+  display: flex;
+  flex-wrap: wrap;
+}
+.box{
+  margin: 1rem;
+  background: white;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.2s linear;
+}
+.aliases{
+  background-color: aqua;
+  padding: 10px;
+  font-family: cursive;
+
+}
+.gender{
+  background-color: rgb(196, 136, 252);
+
+}
+.url{
+  background-color: rgb(231, 212, 248);
+  padding: 10px;
+
+}
